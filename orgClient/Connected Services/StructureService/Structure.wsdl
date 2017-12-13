@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Structure" targetNamespace="http://org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://kz-zea01:8080/SmartOrg/Structure?xsd=1" namespace="http://org/" />
+    </xsd:schema>
+  </types>
+  <message name="findPositionByName">
+    <part name="parameters" element="tns:findPositionByName" />
+  </message>
+  <message name="findPositionByNameResponse">
+    <part name="parameters" element="tns:findPositionByNameResponse" />
+  </message>
+  <message name="getPositionById">
+    <part name="parameters" element="tns:getPositionById" />
+  </message>
+  <message name="getPositionByIdResponse">
+    <part name="parameters" element="tns:getPositionByIdResponse" />
+  </message>
+  <message name="getUnitListByParentID">
+    <part name="parameters" element="tns:getUnitListByParentID" />
+  </message>
+  <message name="getUnitListByParentIDResponse">
+    <part name="parameters" element="tns:getUnitListByParentIDResponse" />
+  </message>
+  <message name="updateUnit">
+    <part name="parameters" element="tns:updateUnit" />
+  </message>
+  <message name="updateUnitResponse">
+    <part name="parameters" element="tns:updateUnitResponse" />
+  </message>
+  <message name="getSubordinationListByPositionID">
+    <part name="parameters" element="tns:getSubordinationListByPositionID" />
+  </message>
+  <message name="getSubordinationListByPositionIDResponse">
+    <part name="parameters" element="tns:getSubordinationListByPositionIDResponse" />
+  </message>
+  <message name="deleteUnit">
+    <part name="parameters" element="tns:deleteUnit" />
+  </message>
+  <message name="deleteUnitResponse">
+    <part name="parameters" element="tns:deleteUnitResponse" />
+  </message>
+  <message name="createUnit">
+    <part name="parameters" element="tns:createUnit" />
+  </message>
+  <message name="createUnitResponse">
+    <part name="parameters" element="tns:createUnitResponse" />
+  </message>
+  <message name="getPositionListByUnitId">
+    <part name="parameters" element="tns:getPositionListByUnitId" />
+  </message>
+  <message name="getPositionListByUnitIdResponse">
+    <part name="parameters" element="tns:getPositionListByUnitIdResponse" />
+  </message>
+  <message name="getUnitByID">
+    <part name="parameters" element="tns:getUnitByID" />
+  </message>
+  <message name="getUnitByIDResponse">
+    <part name="parameters" element="tns:getUnitByIDResponse" />
+  </message>
+  <message name="getSubordinationList">
+    <part name="parameters" element="tns:getSubordinationList" />
+  </message>
+  <message name="getSubordinationListResponse">
+    <part name="parameters" element="tns:getSubordinationListResponse" />
+  </message>
+  <message name="updatePosition">
+    <part name="parameters" element="tns:updatePosition" />
+  </message>
+  <message name="updatePositionResponse">
+    <part name="parameters" element="tns:updatePositionResponse" />
+  </message>
+  <message name="deletePosition">
+    <part name="parameters" element="tns:deletePosition" />
+  </message>
+  <message name="deletePositionResponse">
+    <part name="parameters" element="tns:deletePositionResponse" />
+  </message>
+  <message name="createPosition">
+    <part name="parameters" element="tns:createPosition" />
+  </message>
+  <message name="createPositionResponse">
+    <part name="parameters" element="tns:createPositionResponse" />
+  </message>
+  <message name="getUnitRootList">
+    <part name="parameters" element="tns:getUnitRootList" />
+  </message>
+  <message name="getUnitRootListResponse">
+    <part name="parameters" element="tns:getUnitRootListResponse" />
+  </message>
+  <message name="checkAccess">
+    <part name="parameters" element="tns:checkAccess" />
+  </message>
+  <message name="checkAccessResponse">
+    <part name="parameters" element="tns:checkAccessResponse" />
+  </message>
+  <portType name="Structure">
+    <operation name="findPositionByName">
+      <input wsam:Action="http://org/Structure/findPositionByNameRequest" message="tns:findPositionByName" />
+      <output wsam:Action="http://org/Structure/findPositionByNameResponse" message="tns:findPositionByNameResponse" />
+    </operation>
+    <operation name="getPositionById">
+      <input wsam:Action="http://org/Structure/getPositionByIdRequest" message="tns:getPositionById" />
+      <output wsam:Action="http://org/Structure/getPositionByIdResponse" message="tns:getPositionByIdResponse" />
+    </operation>
+    <operation name="getUnitListByParentID">
+      <input wsam:Action="http://org/Structure/getUnitListByParentIDRequest" message="tns:getUnitListByParentID" />
+      <output wsam:Action="http://org/Structure/getUnitListByParentIDResponse" message="tns:getUnitListByParentIDResponse" />
+    </operation>
+    <operation name="updateUnit">
+      <input wsam:Action="http://org/Structure/updateUnitRequest" message="tns:updateUnit" />
+      <output wsam:Action="http://org/Structure/updateUnitResponse" message="tns:updateUnitResponse" />
+    </operation>
+    <operation name="getSubordinationListByPositionID">
+      <input wsam:Action="http://org/Structure/getSubordinationListByPositionIDRequest" message="tns:getSubordinationListByPositionID" />
+      <output wsam:Action="http://org/Structure/getSubordinationListByPositionIDResponse" message="tns:getSubordinationListByPositionIDResponse" />
+    </operation>
+    <operation name="deleteUnit">
+      <input wsam:Action="http://org/Structure/deleteUnitRequest" message="tns:deleteUnit" />
+      <output wsam:Action="http://org/Structure/deleteUnitResponse" message="tns:deleteUnitResponse" />
+    </operation>
+    <operation name="createUnit">
+      <input wsam:Action="http://org/Structure/createUnitRequest" message="tns:createUnit" />
+      <output wsam:Action="http://org/Structure/createUnitResponse" message="tns:createUnitResponse" />
+    </operation>
+    <operation name="getPositionListByUnitId">
+      <input wsam:Action="http://org/Structure/getPositionListByUnitIdRequest" message="tns:getPositionListByUnitId" />
+      <output wsam:Action="http://org/Structure/getPositionListByUnitIdResponse" message="tns:getPositionListByUnitIdResponse" />
+    </operation>
+    <operation name="getUnitByID">
+      <input wsam:Action="http://org/Structure/getUnitByIDRequest" message="tns:getUnitByID" />
+      <output wsam:Action="http://org/Structure/getUnitByIDResponse" message="tns:getUnitByIDResponse" />
+    </operation>
+    <operation name="getSubordinationList">
+      <input wsam:Action="http://org/Structure/getSubordinationListRequest" message="tns:getSubordinationList" />
+      <output wsam:Action="http://org/Structure/getSubordinationListResponse" message="tns:getSubordinationListResponse" />
+    </operation>
+    <operation name="updatePosition">
+      <input wsam:Action="http://org/Structure/updatePositionRequest" message="tns:updatePosition" />
+      <output wsam:Action="http://org/Structure/updatePositionResponse" message="tns:updatePositionResponse" />
+    </operation>
+    <operation name="deletePosition">
+      <input wsam:Action="http://org/Structure/deletePositionRequest" message="tns:deletePosition" />
+      <output wsam:Action="http://org/Structure/deletePositionResponse" message="tns:deletePositionResponse" />
+    </operation>
+    <operation name="createPosition">
+      <input wsam:Action="http://org/Structure/createPositionRequest" message="tns:createPosition" />
+      <output wsam:Action="http://org/Structure/createPositionResponse" message="tns:createPositionResponse" />
+    </operation>
+    <operation name="getUnitRootList">
+      <input wsam:Action="http://org/Structure/getUnitRootListRequest" message="tns:getUnitRootList" />
+      <output wsam:Action="http://org/Structure/getUnitRootListResponse" message="tns:getUnitRootListResponse" />
+    </operation>
+    <operation name="checkAccess">
+      <input wsam:Action="http://org/Structure/checkAccessRequest" message="tns:checkAccess" />
+      <output wsam:Action="http://org/Structure/checkAccessResponse" message="tns:checkAccessResponse" />
+    </operation>
+  </portType>
+  <binding name="StructurePortBinding" type="tns:Structure">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="findPositionByName">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPositionById">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getUnitListByParentID">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="updateUnit">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getSubordinationListByPositionID">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="deleteUnit">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="createUnit">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPositionListByUnitId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getUnitByID">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getSubordinationList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="updatePosition">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="deletePosition">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="createPosition">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getUnitRootList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="checkAccess">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Structure">
+    <port name="StructurePort" binding="tns:StructurePortBinding">
+      <soap:address location="http://kz-zea01:8080/SmartOrg/Structure" />
+    </port>
+  </service>
+</definitions>

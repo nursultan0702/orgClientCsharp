@@ -1,0 +1,146 @@
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\ApplicationInsights.config
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\orgClient.dll.config
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\orgClient.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\orgClient.pdb
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Antlr3.Runtime.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.AI.Web.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.AI.WindowsServer.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.ApplicationInsights.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.Web.Infrastructure.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Newtonsoft.Json.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.Helpers.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.Mvc.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.Optimization.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.Razor.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.WebPages.Deployment.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.WebPages.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.WebPages.Razor.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\WebGrease.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.Helpers.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.Mvc.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.Optimization.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.Razor.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.WebPages.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.WebPages.Deployment.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\System.Web.WebPages.Razor.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Antlr3.Runtime.pdb
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Newtonsoft.Json.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.ApplicationInsights.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.AI.WindowsServer.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\Microsoft.AI.Web.xml
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\ru\System.Web.Helpers.resources.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\ru\System.Web.Mvc.resources.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\ru\System.Web.Optimization.resources.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\ru\System.Web.Razor.resources.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\ru\System.Web.WebPages.resources.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\ru\System.Web.WebPages.Deployment.resources.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\bin\ru\System.Web.WebPages.Razor.resources.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\obj\Debug\orgClient.csproj.CoreCompileInputs.cache
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\obj\Debug\orgClient.dll
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\obj\Debug\orgClient.pdb
+c:\users\disney\documents\visual studio 2017\Projects\orgClient\orgClient\obj\Debug\orgClient.csprojResolveAssemblyReference.cache
+D:\Projects\orgClientMVC\orgClient\obj\Debug\orgClient.csproj.CoreCompileInputs.cache
+D:\Projects\orgClientMVC\orgClient\bin\ApplicationInsights.config
+D:\Projects\orgClientMVC\orgClient\bin\orgClient.dll.config
+D:\Projects\orgClientMVC\orgClient\bin\orgClient.dll
+D:\Projects\orgClientMVC\orgClient\bin\orgClient.pdb
+D:\Projects\orgClientMVC\orgClient\bin\Antlr3.Runtime.dll
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.Web.dll
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\orgClientMVC\orgClient\bin\Newtonsoft.Json.dll
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.Helpers.dll
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.Mvc.dll
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.Optimization.dll
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.Razor.dll
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.dll
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.Razor.dll
+D:\Projects\orgClientMVC\orgClient\bin\WebGrease.dll
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.Helpers.xml
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.Mvc.xml
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.Optimization.xml
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.Razor.xml
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.xml
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.Razor.xml
+D:\Projects\orgClientMVC\orgClient\bin\Antlr3.Runtime.pdb
+D:\Projects\orgClientMVC\orgClient\bin\Newtonsoft.Json.xml
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.Web.xml
+D:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.Helpers.resources.dll
+D:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.Mvc.resources.dll
+D:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.Optimization.resources.dll
+D:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.Razor.resources.dll
+D:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.WebPages.resources.dll
+D:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Projects\orgClientMVC\orgClient\obj\Debug\orgClient.dll
+D:\Projects\orgClientMVC\orgClient\obj\Debug\orgClient.pdb
+C:\Projects\orgClientMVC\orgClient\bin\ApplicationInsights.config
+C:\Projects\orgClientMVC\orgClient\bin\orgClient.dll.config
+C:\Projects\orgClientMVC\orgClient\bin\orgClient.dll
+C:\Projects\orgClientMVC\orgClient\bin\orgClient.pdb
+C:\Projects\orgClientMVC\orgClient\bin\Antlr3.Runtime.dll
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.Web.dll
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\orgClientMVC\orgClient\bin\Newtonsoft.Json.dll
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.Helpers.dll
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.Mvc.dll
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.Optimization.dll
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.Razor.dll
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.dll
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.Razor.dll
+C:\Projects\orgClientMVC\orgClient\bin\WebGrease.dll
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.Helpers.xml
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.Mvc.xml
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.Optimization.xml
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.Razor.xml
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.xml
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\orgClientMVC\orgClient\bin\System.Web.WebPages.Razor.xml
+C:\Projects\orgClientMVC\orgClient\bin\Antlr3.Runtime.pdb
+C:\Projects\orgClientMVC\orgClient\bin\Newtonsoft.Json.xml
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.ApplicationInsights.xml
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\orgClientMVC\orgClient\bin\Microsoft.AI.Web.xml
+C:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.Helpers.resources.dll
+C:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.Mvc.resources.dll
+C:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.Optimization.resources.dll
+C:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.Razor.resources.dll
+C:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.WebPages.resources.dll
+C:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Projects\orgClientMVC\orgClient\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Projects\orgClientMVC\orgClient\obj\Debug\orgClient.csproj.CoreCompileInputs.cache
+C:\Projects\orgClientMVC\orgClient\obj\Debug\orgClient.dll
+C:\Projects\orgClientMVC\orgClient\obj\Debug\orgClient.pdb
+D:\Projects\orgClientMVC\orgClient\obj\Debug\orgClient.csprojResolveAssemblyReference.cache

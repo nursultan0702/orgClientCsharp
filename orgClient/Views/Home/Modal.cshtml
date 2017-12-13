@@ -1,0 +1,22 @@
+﻿@model orgClient.Models.PositionModel
+<div id="myModal" class="modalw" style="display: block">
+
+    <!-- Modal content -->
+    <div class="modalcontent">
+        <div class="modalheader">
+            <p onclick="clearWindow()"> <span class="close">&times;</span></p>
+            <p style="color:black">Персональные данные</p>
+        </div>
+        <div class="card">
+            <img calss="avatar" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:300px;height:300px;padding-right:2px">
+            <div class="container">
+                <p style="line-height: 1;text-align:center">@(Model.parentPosition.PersonData != null ? "Руководитель: " + Model.parentPosition.PersonData.FIRST_NAME + " " + Model.parentPosition.PersonData.LAST_NAME : " " )</p>
+                <p style="line-height: 0.5;font-size:10px; text-align:center">@(Model.parentPosition.PersonData != null ? "(" + Model.parentPosition.PersonData.HEAD_POSITIONNAME+ ")" : " " )</p>
+                <h4 style="line-height: 1;text-align: center"><b>@(Model.position.PersonData != null ? Model.position.PersonData.FIRST_NAME +" "+ Model.position.PersonData.LAST_NAME:"Вакансия" )</b></h4>
+                <p style="line-height: 0.5;font-size:10px; text-align:center">@(Model.position.PersonData != null ? "("+Model.position.PersonData.date_OF_BIRTH.Date.ToString("dd MMM yyyy")+")" : " " )</p>
+                <p style="line-height: 1;text-align: center ">@Model.position.POSITIONNAME.ToLower()</p>
+            </div>
+        </div>
+    </div>
+
+</div>

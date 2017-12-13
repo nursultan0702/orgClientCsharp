@@ -1,0 +1,9 @@
+﻿@model orgClient.Models.PositionModel
+@foreach (var item in Model.PositionList)
+{
+<tr>
+    <td>@item.PersonData.LAST_NAME</td>
+    <td>@item.PersonData.FIRST_NAME</td>
+    <td>@item.POSITIONNAME</td>
+</tr>
+}

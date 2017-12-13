@@ -1,0 +1,10 @@
+﻿@model orgClient.Models.UnitModel
+@foreach (var item in Model.UnitList)
+{
+    <ul class="Tree">
+        <li class="list-group-item custom-style"  onclick="positionTree(@item.UNITID)">
+            <span class="click-span"> <i id="@(item.UNITID+"icon")" class="fa fa-fw fa-chevron-right"></i>@item.UNITNAME</span> 
+        </li>
+        <ul class="list-group" id="@item.UNITID"></ul>
+    </ul>
+}

@@ -1,0 +1,18 @@
+﻿@model orgClient.Models.UnitModel
+
+    
+@foreach (var item in Model.UnitList)
+{
+    <ul>
+        <li class="list-group-item">
+            <span>
+                <a href="" onclick="positionTree(@item.UNITID)">
+                    <font color="black"><i class="fa fa-fw fa-list"></i>@item.UNITNAME</font>
+                </a>
+            </span>
+        </li>
+
+        <ul class="list-group" id="@item.UNITID"></ul>
+    </ul>
+
+}

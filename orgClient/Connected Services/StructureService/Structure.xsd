@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://org/" targetNamespace="http://org/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="checkAccess" type="tns:checkAccess" />
+  <xs:element name="checkAccessResponse" type="tns:checkAccessResponse" />
+  <xs:element name="createPosition" type="tns:createPosition" />
+  <xs:element name="createPositionResponse" type="tns:createPositionResponse" />
+  <xs:element name="createUnit" type="tns:createUnit" />
+  <xs:element name="createUnitResponse" type="tns:createUnitResponse" />
+  <xs:element name="deletePosition" type="tns:deletePosition" />
+  <xs:element name="deletePositionResponse" type="tns:deletePositionResponse" />
+  <xs:element name="deleteUnit" type="tns:deleteUnit" />
+  <xs:element name="deleteUnitResponse" type="tns:deleteUnitResponse" />
+  <xs:element name="findPositionByName" type="tns:findPositionByName" />
+  <xs:element name="findPositionByNameResponse" type="tns:findPositionByNameResponse" />
+  <xs:element name="getPositionById" type="tns:getPositionById" />
+  <xs:element name="getPositionByIdResponse" type="tns:getPositionByIdResponse" />
+  <xs:element name="getPositionListByUnitId" type="tns:getPositionListByUnitId" />
+  <xs:element name="getPositionListByUnitIdResponse" type="tns:getPositionListByUnitIdResponse" />
+  <xs:element name="getSubordinationList" type="tns:getSubordinationList" />
+  <xs:element name="getSubordinationListByPositionID" type="tns:getSubordinationListByPositionID" />
+  <xs:element name="getSubordinationListByPositionIDResponse" type="tns:getSubordinationListByPositionIDResponse" />
+  <xs:element name="getSubordinationListResponse" type="tns:getSubordinationListResponse" />
+  <xs:element name="getUnitByID" type="tns:getUnitByID" />
+  <xs:element name="getUnitByIDResponse" type="tns:getUnitByIDResponse" />
+  <xs:element name="getUnitListByParentID" type="tns:getUnitListByParentID" />
+  <xs:element name="getUnitListByParentIDResponse" type="tns:getUnitListByParentIDResponse" />
+  <xs:element name="getUnitRootList" type="tns:getUnitRootList" />
+  <xs:element name="getUnitRootListResponse" type="tns:getUnitRootListResponse" />
+  <xs:element name="updatePosition" type="tns:updatePosition" />
+  <xs:element name="updatePositionResponse" type="tns:updatePositionResponse" />
+  <xs:element name="updateUnit" type="tns:updateUnit" />
+  <xs:element name="updateUnitResponse" type="tns:updateUnitResponse" />
+  <xs:complexType name="findPositionByName">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findPositionByNameResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:position" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="position">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:databaseRecord">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="PersonData" type="tns:person" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="subordinations" nillable="true" type="tns:subordinationLink" />
+          <xs:element minOccurs="0" name="EMPID" type="xs:string" />
+          <xs:element minOccurs="0" name="PERSON_ID" type="xs:int" />
+          <xs:element minOccurs="0" name="PL" type="xs:string" />
+          <xs:element minOccurs="0" name="POSITIONID" type="xs:int" />
+          <xs:element minOccurs="0" name="POSITIONNAME" type="xs:string" />
+          <xs:element minOccurs="0" name="POSITION_CREATE_DATE" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="POSITION_STATUS" type="xs:int" />
+          <xs:element minOccurs="0" name="POSITION_UPDATE_DATE" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="parentPositionID" type="xs:int" />
+          <xs:element minOccurs="0" name="UNITID" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="databaseRecord">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="person">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:databaseRecord">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ASSIGNMENT_ID" type="xs:int" />
+          <xs:element minOccurs="0" name="CREATE_DATE" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CREATE_DateTime" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="date_OF_BIRTH" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="EFFECTIVE_END_Date" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="EFFECTIVE_START_Date" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="EMPLOYEE_NUMBER" type="xs:string" />
+          <xs:element minOccurs="0" name="FIRST_NAME" type="xs:string" />
+          <xs:element minOccurs="0" name="HEAD_FIRST_NAME" type="xs:string" />
+          <xs:element minOccurs="0" name="HEAD_LAST_NAME" type="xs:string" />
+          <xs:element minOccurs="0" name="HEAD_MIDDLE_NAMES" type="xs:string" />
+          <xs:element minOccurs="0" name="HEAD_PERSONID" type="xs:int" />
+          <xs:element minOccurs="0" name="HEAD_POSITIONID" type="xs:int" />
+          <xs:element minOccurs="0" name="HEAD_POSITIONNAME" type="xs:string" />
+          <xs:element minOccurs="0" name="INTERNAL_ADDRESS_LINE" type="xs:string" />
+          <xs:element minOccurs="0" name="LAST_NAME" type="xs:string" />
+          <xs:element minOccurs="0" name="LEAVE_FROM" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="LEAVE_RETURN" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="LEAVE_TYPE" type="xs:string" />
+          <xs:element minOccurs="0" name="MIDDLE_NAMES" type="xs:string" />
+          <xs:element minOccurs="0" name="NFS_PERSON_ID" type="xs:int" />
+          <xs:element minOccurs="0" name="PERSONID" type="xs:int" />
+          <xs:element minOccurs="0" name="PERSON_TYPE_ID" type="xs:string" />
+          <xs:element minOccurs="0" name="PLACE_OF_RESIDENCE" type="xs:string" />
+          <xs:element minOccurs="0" name="PRIMARY_FLAG" type="xs:string" />
+          <xs:element minOccurs="0" name="REGION" type="xs:string" />
+          <xs:element minOccurs="0" name="SEX" type="xs:string" />
+          <xs:element minOccurs="0" name="UPDateTimeD" type="xs:int" />
+          <xs:element minOccurs="0" name="UPDateTime_DateTime" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="subordinationLink">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:databaseRecord">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CREATE_DATE" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />
+          <xs:element minOccurs="0" name="PARENT_ID" type="xs:int" />
+          <xs:element minOccurs="0" name="POSITION_ID" type="xs:int" />
+          <xs:element minOccurs="0" name="STATUS" type="xs:int" />
+          <xs:element minOccurs="0" name="SUBORDINATION_ID" type="xs:int" />
+          <xs:element minOccurs="0" name="SUBORDINATION_LINK_ID" type="xs:int" />
+          <xs:element minOccurs="0" name="SUBORDINATION_NAME" type="xs:string" />
+          <xs:element minOccurs="0" name="UPDATE_DATE" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="createUnit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="unit" type="tns:unit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="unit">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:databaseRecord">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="COMPANYID" type="xs:int" />
+          <xs:element minOccurs="0" name="childCount" type="xs:int" />
+          <xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />
+          <xs:element minOccurs="0" name="PARENTID" type="xs:int" />
+          <xs:element minOccurs="0" name="STATUS" type="xs:int" />
+          <xs:element minOccurs="0" name="UNITID" type="xs:int" />
+          <xs:element minOccurs="0" name="UNITNAME" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="createUnitResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="updateUnit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="unit" type="tns:unit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="updateUnitResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getUnitByID">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="unitid" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getUnitByIDResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:unit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getUnitRootList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getUnitRootListResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:unit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="createPosition">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="position" type="tns:position" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="createPositionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="checkAccess">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="code" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="checkAccessResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSubordinationListByPositionID">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="positionId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSubordinationListByPositionIDResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:subordinationLink" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deletePosition">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="positionId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deletePositionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteUnit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="unitId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteUnitResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPositionListByUnitId">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="unitid" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPositionListByUnitIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:position" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="updatePosition">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="position" type="tns:position" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="updatePositionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPositionById">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="positionid" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPositionByIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:position" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getUnitListByParentID">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+      <xs:element minOccurs="0" name="parentid" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getUnitListByParentIDResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:unit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSubordinationList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userid" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSubordinationListResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:subordination" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="subordination">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:databaseRecord">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CREATE_DATE" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="STATUS" type="xs:int" />
+          <xs:element minOccurs="0" name="SUBORDINATIONID" type="xs:int" />
+          <xs:element minOccurs="0" name="SUBORDINATION_DESCRIPTION" type="xs:string" />
+          <xs:element minOccurs="0" name="SUBORDINATION_NAME" type="xs:string" />
+          <xs:element minOccurs="0" name="UPDATE_DATE" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

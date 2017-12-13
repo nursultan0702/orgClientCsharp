@@ -1,0 +1,16 @@
+﻿@model orgClient.Models.PositionModel
+@foreach (var item in Model.PositionList)
+{
+    <ul class="Tree">
+        <li class="list-group-item custom-style" >
+            <span  onclick="modalclick(@item.POSITIONID,@item.parentPositionID)">
+                    <i class="fa fa-fw fa-user-circle-o"></i>
+                    @(item.PersonData != null ? item.PersonData.FIRST_NAME + " " + item.PersonData.LAST_NAME : "Вакансия" ) 
+            </span>
+            @item.POSITIONNAME
+        </li>
+        <ul class="list-group" id="@item.UNITID"></ul>
+    </ul>
+   
+}
+
